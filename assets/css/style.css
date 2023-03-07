@@ -54,7 +54,7 @@ header nav ul{
 /* MAIN */
 /* PARTE ALTA */
 #parte-alta{
-
+    padding: 1.25rem;
 }
 
 .larg-1{
@@ -75,24 +75,45 @@ header nav ul{
     background-color: rgb(180, 222, 254);
     padding: 1.5rem;
     border-radius: 20px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card:first-child{
+    text-align: left;
+    padding-bottom: 0;
 }
 
 .card h3{
-    color: ;
+    color: rgb(0, 138, 249);
 }
 
 .card p{
-    color: ;
     line-height: 140%;
+    margin: 1.25rem 0;
 }
 
-#parte-alta img{
+.card i{
+    font-size: 3rem;
+    color: rgb(0, 138, 249);
+    margin-bottom: 1.25rem;
+}
+
+.card:first-child i{
+    font-size: 1.25rem;
+    color: white;
+}
+
+#parte-alta .larg-1 .card img{
     width: 80%;
     display: block;
+    margin-top: 1.25rem;
 }
 
 .button-blue{
     background-color: rgb(0, 138, 249);
     color: white;
     margin: 1.25rem 0;
+    padding: 10px 25px;
+    border-radius: 20px;
 }
