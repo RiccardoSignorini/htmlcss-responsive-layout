@@ -49,6 +49,10 @@ button-white{
 
 /* MAIN */
 /* PARTE ALTA */
+#parte-alta{
+
+}
+
 .larg-1{
     max-width: 1200px;
     margin: 0 auto;
@@ -60,6 +64,33 @@ button-white{
 
 .wrap{
     flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 100%;
+    background-color: ;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.card h3{
+    color: ;
+}
+
+.card p{
+    color: ;
+    line-height: 140%;
+}
+
+#parte-alta img{
+    width: 80%;
+    display: block;
+}
+
+.button-blue{
+    background-color: ;
+    color: white;
+    margin: 1.25rem 0;
 }
 
 /* VERSIONE TABLET */
@@ -76,4 +107,7 @@ button-white{
     header nav i{
         display: none;
     }
+
+    /* PARTE ALTA */
+
 }
