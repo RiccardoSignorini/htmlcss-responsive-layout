@@ -19,6 +19,20 @@
     #parte-alta .card:first-child{
         flex-basis: calc(66.66% - 1%);
     }
+
+    /* PARTE CENTRALE 2 */
+    #testimonials{
+        text-align: left;
+    }
+    
+    #testimonials .testimonial{
+        display: flex;
+        align-items: center;
+    }
+
+    #testimonials .testimonial img{
+        margin-right: 1.25rem;
+    }
 }
 
 /* VERSIONE DESKTOP */
@@ -34,5 +48,22 @@
     /* PARTE ALTA */
     #parte-alta .larg-1 .card:first-child{
         display: flex;
+    }
+
+    /* PARTE CENTRALE 1 */
+    #strategic-planning .larg-2 .fig{
+        flex-basis: 50%;
+    }
+
+    #strategic-planning .larg-2 .back-white{
+        align-self: flex-end;
+    }
+
+    #strategic-planning .larg-2 .back-white img{
+        width: 60%;
+    }
+
+    #strategic-planning .larg-2 .fig{
+        flex-basis: 50%;
     }
 }
