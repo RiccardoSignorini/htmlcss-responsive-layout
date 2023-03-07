@@ -7,6 +7,18 @@
         display: block;
         margin-top: 1.25rem;
     }
+
+    #parte-alta>div{
+        justify-content: space-between;
+    }
+
+    .card{
+        flex-basis: calc(33.33% - 2%);
+    }
+
+    #parte-alta .card:first-child{
+        flex-basis: calc(66.66% - 1%);
+    }
 }
 
 /* VERSIONE DESKTOP */
