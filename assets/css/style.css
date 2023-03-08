@@ -209,6 +209,7 @@ larg-2{
 #benefits h2{
     font-size: 2.5rem;
     margin: 2rem 1.5rem;
+    text-align: center;
 }
 
 #benefits #container{
@@ -244,4 +245,44 @@ larg-2{
     background-color: rgb(146, 150, 227);
     display: inline-block;
     margin: 1rem 0;
+}
+
+/* PARTE BASSA */
+#about-us{
+    padding: 1.5rem;
+}
+
+#about-us h2{
+    font-size: 3rem;
+    color: rgb(146, 150, 227);
+    margin: 1.25rem 0;
+}
+
+#about-us h3{
+    font-size: 2rem;
+    color: rgb(146, 150, 227);
+    margin: 1rem 0;
+}
+
+#about-us p{
+    margin: 1rem 0;
+}
+
+#circle-img{
+    position: relative;
+}
+
+#circle-img img{
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+#circle-img i{
+    position: absolute;
+    color: rgb(146, 150, 227);
+    font-size: 5rem;
+    top: 0;
+    right: 0;
 }
