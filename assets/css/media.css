@@ -59,8 +59,13 @@
 
     /* FOOTER */
     /* ZONA 1 */
+    #started, #footer{
+        display: flex;
+        justify-content: center;
+    }
+    
     .larg-3{
-        width: 70%;
+        flex-basis: 70%;
     }
 }
 
@@ -112,7 +117,12 @@
 
     /* FOOTER */
     /* ZONA 1 */
+    #started, #footer{
+        display: flex;
+        justify-content: center;
+    }
+    
     .larg-4{
-        width: 40%;
+        flex-basis: 40%;
     }
 }
