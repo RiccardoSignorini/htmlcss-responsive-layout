@@ -11,6 +11,7 @@ header{
     background-color: rgb(0, 138, 249);
     color: white;
     padding: 1rem;
+    z-index: 1;
 }
 
 header nav{
@@ -287,4 +288,34 @@ larg-2{
     font-size: 5rem;
     top: 0;
     right: 0;
+}
+
+/* FOOTER */
+/* ZONA 1 */
+#started{
+    background-color: rgb(146, 150, 227);
+    color: white;
+    text-align: center;
+}
+
+#started h4{
+    color: rgb(211, 212, 243);
+    font-size: 1.5rem;
+}
+
+#started h3{
+    font-size: 2.5rem;
+}
+
+#started h2{
+    color: rgb(254, 191, 103);
+    font-size: 4rem;
+}
+
+#started h4, #started h3, #started h2{
+    margin: 1.25rem 0;
+}
+
+#started ul li{
+    display: flex;
 }
