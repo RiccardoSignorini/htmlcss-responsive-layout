@@ -33,6 +33,11 @@
     #testimonials .testimonial img{
         margin-right: 1.25rem;
     }
+
+    /* PARTE CENTRALE 3 */
+    .benefit{
+        flex-basis: calc(50% - 2%);
+    }
 }
 
 /* VERSIONE DESKTOP */
@@ -65,5 +70,10 @@
 
     #strategic-planning .larg-2 .fig{
         flex-basis: 50%;
+    }
+
+    /* PARTE CENTRALE 3 */
+    .benefit{
+        flex-basis: calc(100% / 3 - 2%);
     }
 }

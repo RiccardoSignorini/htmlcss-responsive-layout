@@ -174,7 +174,7 @@ larg-2{
 }
 
 #testimonials h2, #testimonials p{
-    margin-bottom: 1.25rem;
+    margin: 1.25rem 0;
 }
 
 #testimonials .testimonial{
@@ -189,10 +189,59 @@ larg-2{
     content: '\f10d';
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
+    margin-right: 10px;
 }
 
 #testimonials .testimonial p::after{
     content: '\f10e';
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
+    margin-left: 10px;
+}
+
+/* PARTE CENTRALE 3 */
+#benefits{
+    background-color: rgb(146, 150, 227);
+    color: white;
+    padding: 1.5rem;
+}
+
+#benefits h2{
+    font-size: 2.5rem;
+    margin: 2rem 1.5rem;
+}
+
+#benefits #container{
+    justify-content: space-between;
+}
+
+.benefit{
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 20px;
+    flex-basis: 100%;
+    color: rgb(146, 150, 227);
+    margin-bottom: 2rem;
+}
+
+.benefit p{
+    color: black;
+    margin: 1.25rem 0;
+}
+
+.benefit span{
+    font-size: 4rem;
+    margin: 1.25rem 0;
+    font-weight: bold;
+}
+
+.benefit h3{
+    font-size: 2rem;
+    margin: 1.25rem 0;
+}
+
+.button-violet{
+    background-color: rgb(146, 150, 227);
+    display: inline-block;
+    margin: 1rem 0;
 }
