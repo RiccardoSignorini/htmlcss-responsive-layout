@@ -56,6 +56,12 @@
     #circle-img img{
         width: 250px;
     }
+
+    /* FOOTER */
+    /* ZONA 1 */
+    .larg-3{
+        width: 70%;
+    }
 }
 
 /* VERSIONE DESKTOP */
@@ -102,5 +108,11 @@
 
     #circle-img i{
         font-size: 4rem;
+    }
+
+    /* FOOTER */
+    /* ZONA 1 */
+    .larg-4{
+        width: 40%;
     }
 }

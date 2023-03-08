@@ -316,6 +316,48 @@ larg-2{
     margin: 1.25rem 0;
 }
 
-#started ul li{
+#started ul{
     display: flex;
+    justify-content: center;
+}
+
+#started ul li{
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#big-button{
+    margin: 1rem 0;
+    display: inline-block;
+    background-color: white;
+    color: rgb(146, 150, 227);
+    font-size: 1.75rem;
+    border-radius: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+#started ul li a{
+    text-decoration: underline;
+    color: white;
+}
+
+/* ZONA 2 */
+#footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+}
+
+.padding{
+    padding: 3rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#footer a{
+    color: rgb(146, 150, 227);
+    text-decoration: underline;
 }
