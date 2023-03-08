@@ -259,17 +259,19 @@ larg-2{
 }
 
 #about-us h3{
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: rgb(146, 150, 227);
     margin: 1rem 0;
 }
 
 #about-us p{
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
+
 
 #circle-img{
     position: relative;
+    display: inline-block;
 }
 
 #circle-img img{

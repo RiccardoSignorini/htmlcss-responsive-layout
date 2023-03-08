@@ -1,5 +1,5 @@
 /* VERSIONE TABLET */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 740px){
 
     /* PARTE ALTA */
     #parte-alta .larg-1 .card img{
@@ -25,12 +25,12 @@
         text-align: left;
     }
     
-    #testimonials .testimonial{
+    .testimonial{
         display: flex;
         align-items: center;
     }
 
-    #testimonials .testimonial img{
+    .testimonial img{
         margin-right: 1.25rem;
     }
 
@@ -38,10 +38,28 @@
     .benefit{
         flex-basis: calc(50% - 2%);
     }
+
+    /* PARTE BASSA */
+    #about-us .larg-1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .larg-60{
+        flex-basis: calc(60% - 1%);
+    }
+
+    .larg-40{
+        flex-basis: calc(40% - 1%);
+    }
+
+    #circle-img img{
+        width: 250px;
+    }
 }
 
 /* VERSIONE DESKTOP */
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1000px){
     header nav ul{
         display: block;
     }
@@ -75,5 +93,14 @@
     /* PARTE CENTRALE 3 */
     .benefit{
         flex-basis: calc(100% / 3 - 2%);
+    }
+
+    /* PARTE BASSA */
+    #circle-img img{
+        width: 200px;
+    }
+
+    #circle-img i{
+        font-size: 4rem;
     }
 }
